@@ -6,6 +6,8 @@ apiKey = ""
 language = ""
 
 #OCR
+#Substitua "eng.jpg" pela imagem que será utilizada.
+
 img = cv2.imread('img/eng.jpg')
 
 _, compressedimage = cv2.imencode('.jpg', img, [1, 90])
